@@ -1,0 +1,27 @@
+.fondo{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+}
+.card{
+    display: inline-block;
+    margin:5px;
+    height: 190px;
+    width: 240px;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(0.95);
+}
+.card-image{
+    height: 190px;
+    width: 240px;
+}
